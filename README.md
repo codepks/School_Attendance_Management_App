@@ -52,26 +52,6 @@
   ]
 }
 
-
-
-//Functionalities needed as per UI
-//1.  Get accumulative attendance of a student in a month
-//    a) For this go to attendance schema data for a month range
-//    b) filter the student as per the user name of queried
-
-//2.  Get the list of all students enrolled in a class
-//    a) Get list of all the sorted student list
-//    b) Build a dynamic list of students which have required matching class_id
-
-//3.  Get teacher name for a class
-//    a) Get present address id
-//    b) Get corresponding class id
-//    c) Get corresponding teacher of a class id
-
-//4.  Get the next student
-//    a) We will get the list of all the students en
-
-
 /*
     Input fetched to the software by the school
     1. List of students enrolled with their class room name and their personal details
@@ -88,5 +68,15 @@
         This handles the case when an external teacher comes in she/he also gets to know what this class is all about
         a) The opening page will show the date, teacher assigned, class name , no. of students, class timing
         b) Getting "Date" - easy to get from the windows timing itself
-        c) Getting "Teacher Assigned" - 
-*/
+        c) Getting "Teacher Assigned" - Teacher will have to input the class name and based on the current timing, 
+            day of the week the class details should come front.
+        d) Getting "Students List" - The input class name and timing will give the class id and the corresponding students listed.
+
+    3.  Teacher will press the attendance tab. The attendance page will open. It will show:
+        a) Names of the students listed under the class. On pressing present, it will create a new attendance-mark object id
+            taking in the class_id, student_id and date
+        b) It can show the graph attendance of the student for the class : by looking for class_id and student_id. 
+            Limit the data to one month and show the graph.
+
+
+*/  
