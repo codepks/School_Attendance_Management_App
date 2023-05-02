@@ -2,11 +2,10 @@
 //  The date will keep on incrementing and _id will change too
 {
   "_id": ObjectId("..."), 
-  "student_id": ObjectId("..."), // ID of the student attending the class
-  "class_id": ObjectId("..."), // ID of the class being attended
   "date": ISODate("..."), // Date of the attendance record
   "status": "present" // Attendance status (present/absent/tardy/etc.)
 }
+//Student and class would be linked to above class using lookup and aggregrator
 
 //Student Schema
 //1. We will have the student-centric entries
