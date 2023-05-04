@@ -55,17 +55,15 @@
   ]
 }
 
-/*
     Input fetched to the software by the school
     1. List of students enrolled with their class room name and their personal details
     2. An updated time table 
     3. List of teachers and classes assigned to them
 
-*/
 
 
 
-/*  Working of the app
+   Working of the app
     1.  Signed in the app based on teacher
     2.  The app shows the present day class details. 
         This handles the case when an external teacher comes in she/he also gets to know what this class is all about
@@ -74,7 +72,6 @@
         c) Getting "Teacher Assigned" - Teacher will have to input the class name and based on the current timing, 
             day of the week the class details should come front.
         d) Getting "Students List" - The input class name and timing will give the class id and the corresponding students listed.
-
     3.  Teacher will press the attendance tab. The attendance page will open. It will show:
         a) Names of the students listed under the class. On pressing present, it will create a new attendance-mark object id
             taking in the class_id, student_id and date
@@ -82,7 +79,6 @@
             Limit the data to one month and show the graph.
 
 
-*/  
 
 
 ======================================================================================================================================================================
